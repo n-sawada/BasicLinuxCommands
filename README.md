@@ -31,13 +31,13 @@
 | xargs コマンド | 標準入力から受け取ったファイル一覧をコマンドの引数として実行する |
 | xargs -n N コマンド | 引数として渡すファイル数をn個に制限して実行する |
 
-* -execオプションを使う場合
-$ find . -name '*~' -or -name '*.bak' -exec rm {} \;
-→rmコマンドが1000回呼ばれる
+* -execオプションを使う場合  
+$ find . -name '*~' -or -name '*.bak' -exec rm {} \;  
+→rmコマンドが1000回呼ばれる  
 
-* xargsを使う場合
-$ find . -name '*~' -or -name '*.bak' | xargs rm
-→rmコマンド１回呼ばれる
+* xargsを使う場合  
+$ find . -name '*~' -or -name '*.bak' | xargs rm  
+→rmコマンド１回呼ばれる  
 
 
 
