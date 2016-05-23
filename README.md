@@ -1,0 +1,3 @@
+# BasicLinuxCommands
+コマンドメモ
+めも
